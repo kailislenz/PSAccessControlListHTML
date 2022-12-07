@@ -94,8 +94,3 @@ function AssignAccessValue($passthruObject){
         6
     }
 }
-
-<#$directory = "\\gcsnas01\dept\Third Party\3rd Party Reporting (Compliance)\Top Errors (Weekly)"
-$GroupMemberCache = [PSCustomObject]@{}
-$GroupUserCache = [PSCustomObject]@{}
-$test = Get-ACLTables -Path $directory -GroupMemberCache $GroupMemberCache -GroupUserCache $GroupUserCache#>
